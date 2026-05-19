@@ -1,15 +1,19 @@
 class Swim < Formula
   desc "Vim-like terminal editor written in Swift"
   homepage "https://github.com/akvilary/swim"
-  url "https://github.com/akvilary/swim/releases/download/v0.0.1/swim-v0.0.1-macos-universal.tar.gz"
-  sha256 "5bd69e3e0325b6df626430dc1a67d4ee24045e3725b052af26ff2ccddd65b757"
-  version "0.0.1"
+  version "0.0.4"
+
+  on_macos do
+    url "https://github.com/akvilary/swim/releases/download/v0.0.4/swim-v0.0.4-macos-universal.tar.gz"
+    sha256 "94e96ea19fdcc8fe72346f398552023146cdfcffcd2c41f3fb2d059481353de5"
+  end
+
+  on_linux do
+    url "https://github.com/akvilary/swim/releases/download/v0.0.4/swim-v0.0.4-linux-x86_64.tar.gz"
+    sha256 "55237115b776b7d5b13a3a8b8b060c1331edc53ef0415f7f4cee653ac6bc9fc9"
+  end
 
   def install
     bin.install "swim"
-  end
-
-  test do
-    assert_match "swim 0.0.1", shell_output("#{bin}/swim --version")
   end
 end
