@@ -1,16 +1,16 @@
 class Swim < Formula
   desc "Vim-like terminal editor written in Swift"
   homepage "https://github.com/akvilary/swim"
-  version "0.1.7"
+  version "0.1.10"
 
   on_macos do
-    url "https://github.com/akvilary/swim/releases/download/v0.1.7/swim-v0.1.7-macos-universal.tar.gz"
-    sha256 "d4d90a945e232ea971a6b587689e02d8730a7df27962c7d76b9055ecb144693d"
+    url "https://github.com/akvilary/swim/releases/download/v0.1.10/swim-v0.1.10-macos-universal.tar.gz"
+    sha256 "229c69c3216baccd876c32247934675f40eaebb0d680b29f50771818f3894d2e"
   end
 
   on_linux do
-    url "https://github.com/akvilary/swim/releases/download/v0.1.7/swim-v0.1.7-linux-x86_64.tar.gz"
-    sha256 "743e1fb73db70aa7b25d2fd899bd7d1331ff9c0e6bf3264a1422462a814bf51c"
+    url "https://github.com/akvilary/swim/releases/download/v0.1.10/swim-v0.1.10-linux-x86_64.tar.gz"
+    sha256 "654be69cd72c24c6be6782d50af67a66027587393468583e1d91302393ab7314"
   end
 
   def install
