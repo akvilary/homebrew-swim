@@ -1,11 +1,11 @@
 class Swim < Formula
   desc "Vim-like terminal editor written in Swift"
   homepage "https://github.com/akvilary/swim"
-  version "0.1.25"
+  version "0.1.27"
 
   on_macos do
-    url "https://github.com/akvilary/swim/releases/download/v0.1.25/swim-v0.1.25-macos-universal.tar.gz"
-    sha256 "8aafc6c55f3a7291545a8564db1d0b13d923d9ddb0b342d2156f60539109124f"
+    url "https://github.com/akvilary/swim/releases/download/v0.1.27/swim-v0.1.27-macos-universal.tar.gz"
+    sha256 "dfe9026a117c719d67aed3a5503ff4cf0e3b53bbfdba303c7b5649dddb8c18f9"
     # The file explorer's icons are Nerd Font glyphs; the pinned
     # Symbols font feeds the terminal's font fallback when the main
     # font lacks the codepoints. No terminal configuration is touched.
@@ -13,8 +13,8 @@ class Swim < Formula
   end
 
   on_linux do
-    url "https://github.com/akvilary/swim/releases/download/v0.1.25/swim-v0.1.25-linux-x86_64.tar.gz"
-    sha256 "9d7de06d984d08816264203a38efe84fbc7d6d18b77be30c126d51e1a1975b07"
+    url "https://github.com/akvilary/swim/releases/download/v0.1.27/swim-v0.1.27-linux-x86_64.tar.gz"
+    sha256 "81699435041d346b47e2ed36ea8027f87ba3b452c5b0c62a1f08dafe2b60ee2d"
   end
 
   def install
